@@ -7,8 +7,8 @@ const navigationItems = () => {
     return (
         //active={true} but it passing true by defualt
         <ul className={classes.NavigationItems}>
-            <NavigationItem link="/" active>Burger Builder</NavigationItem> 
-            <NavigationItem link="/">Checkout</NavigationItem>
+            <NavigationItem link="/" >Burger Builder</NavigationItem> 
+            <NavigationItem link="/orders">Orders</NavigationItem>
         </ul>
     );
 };
